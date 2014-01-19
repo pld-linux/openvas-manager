@@ -83,7 +83,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES ChangeLog README TODO
+%doc CHANGES ChangeLog README TODO INSTALL
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/openvas/openvasmd_log.conf
 %doc doc/{*.sql,*.html,*HOWTO,about-cert-feed.txt,*.png,*.rnc}
 %attr(755,root,root) %{_sbindir}/*
