@@ -14,7 +14,7 @@ URL:		http://www.openvas.org/
 BuildRequires:	cmake
 BuildRequires:	glib2-devel >= 2.16
 BuildRequires:	gnutls-devel > 2.8
-BuildRequires:	libuuid-devel > 2.8
+BuildRequires:	libuuid-devel
 BuildRequires:	openvas-libraries-devel >= 6.0.0
 BuildRequires:	pkgconfig
 BuildRequires:	sqlite3-devel
