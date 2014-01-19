@@ -26,12 +26,13 @@ BuildRequires:	doxygen
 BuildConflicts:	openvas-libraries-devel >= 7.0
 Requires:	openvas-common >= 6.0.0
 Suggests:	/usr/bin/makensis
-Suggests:	/usr/bin/pdflatex
 Suggests:	/usr/bin/xsltproc
 Suggests:	alien
 Suggests:	fakeroot
 Suggests:	gnupg
 Suggests:	rpm
+Suggests:	texlive-format-pdflatex
+Suggests:	texlive-latex-comment
 Suggests:	wget
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
